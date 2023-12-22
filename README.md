@@ -1,15 +1,18 @@
 # BridgeRouteX.github.io
 Dapp Interface
 
-https://bridge-route-x.gitbook.io/project-overview/
+node v20.x
 
-
-
-##Framework: VITE (React) Typescrypt + SWC
+## Framework: VITE (React) Typescrypt + SWC
+### Setup:
 npm create vite@latest
 
-##Plugins added
-###Tailwind CSS
+## Plugins added
+### Tailwind CSS
     [npm install -D tailwindcss postcss autoprefixer]
     https://tailwindcss.com/docs/guides/vite
+
+### Vitest
+    [npm install -D vitest]
+    https://vitest.dev/guide/
 
