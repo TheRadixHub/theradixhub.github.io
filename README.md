@@ -16,3 +16,7 @@ npm create vite@latest
     [npm install -D vitest]
     https://vitest.dev/guide/
 
+    - For tests coverage, change "test" value in 'package.json'
+        "scripts": { "test": vitest }
+        "scripts": { "test": "vitest --coverage"}
+
