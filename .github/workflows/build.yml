@@ -22,6 +22,8 @@ jobs:
 
       - name: Install Vite
         run: npm create vite@latest git_test -- --template react-swc-ts
+         cd git_test
+        
 
       - name: instal deps
         run: npm install
