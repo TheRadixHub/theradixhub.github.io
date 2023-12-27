@@ -1,0 +1,31 @@
+# exemplo
+
+name: Vite Build
+
+on: pull_request
+
+jobs:
+  continuos-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3 # checkout = git-clone da branch
+      - name: Using Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20.x
+      - name: run install, build and test
+        run: |
+          npm install
+          npm run build
+          npm run test
+
+      - name: Using Vite
+        uses: actions/vite
+        with:
+          vite-version: latest
+      - name: run install, build and test
+        run: |
+          npm install
+          npm run dev
+          npm run vite_test
