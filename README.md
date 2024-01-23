@@ -1,7 +1,5 @@
-# BridgeRouteX.github.io
+# TheRadixHub.github.io
 Dapp Interface
-
-node v20.x
 
 ## Framework: VITE (React) Typescrypt + SWC
 ### Setup:
