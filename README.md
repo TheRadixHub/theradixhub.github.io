@@ -1,6 +1,6 @@
 # BridgeRouteX.github.io
 Dapp Interface
-
+<!--
 node v20.x
 
 ## Framework: VITE (React) Typescrypt + SWC
@@ -19,4 +19,6 @@ npm create vite@latest
     - For tests coverage, change "test" value in 'package.json'
         "scripts": { "test": vitest }
         "scripts": { "test": "vitest --coverage"}
+-->
 
+![Alt](https://repobeats.axiom.co/api/embed/0c54d34ad89462206655cffb2eb42d8411ae7d6d.svg "Repobeats analytics image")
