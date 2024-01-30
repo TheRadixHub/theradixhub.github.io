@@ -25,9 +25,12 @@ function App() {
 
         <div title="Content" className='flex bg-slate-700 w-full flex-grow'> {/*- h-screen*/}
           <div className='w-full h-full overflow-hidden'> {/*+h-screen-20 h-screen-10 overflow-hidden | -max-h-full overflow-auto*/}
-            <div className='flex px-20 justify-between items-center w-full h-full'>
+            <div className='flex px-20 justify-between items-center w-full h-full '>
               <div className='text-transparent'>a</div>
-              <h1>The Radix Hub</h1>
+              <div className='flex flex-col items-center'>
+                <h1 className=''>The Radix Hub</h1>
+                <div><a href='https://github.com/TheRadixHub' className=' text-3xl'>Under development</a></div>
+              </div>
               <div className=' text-transparent'>a</div>
             </div>
           </div>
@@ -36,12 +39,12 @@ function App() {
         <footer className='flex flex-col justify-between items-center text-center bg-slate-900'>
           <div className="flex w-full h-fit">
             <div className='flex justify-between px-12 w-full'>
-              <div title="Footer SNSs" className='flex flex-row m-3 text-white bg-transparent'>
+              <div title="Footer SNSs" className='flex flex-row m-3 bg-transparent text-transparent'>
                 <div className='p-2'>discord</div>
                 <div className='p-2'>X</div>
                 <div className='p-2'>whitepaper</div>
               </div>
-              <div title="Feedback link" className='flex flex-row w-fit m-3 items-center text-center text-white'>
+              <div title="Feedback link" className='flex flex-row w-fit m-3 items-center text-center text-transparent'>
                 <div>a</div>
                 <div>Feedback</div>
               </div>
