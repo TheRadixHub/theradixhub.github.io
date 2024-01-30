@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { Button } from './components/ui/button.tsx'
-import MenubarDemo from './components/end_components/menubar.tsx'
 
 
 function App() {
@@ -16,15 +15,14 @@ function App() {
               <div className='text-white text-lg font-semibold border-4 border-transparent'>The Radix Hub</div>
             </div>
           
-            {/*Colocar lista de items do header (menubar)*/}
-            {/*<span className="text-xl font-bold m-3">Header</span>*/}
+            {/*Headers list*/}
             
             <div className='w-auto items-end'><Button className='m-3'>Launch dApp</Button></div>
           </div>
         </header>
 
-        <div title="Content" className='flex bg-slate-700 w-full flex-grow'> {/*- h-screen*/}
-          <div className='w-full h-full overflow-hidden'> {/*+h-screen-20 h-screen-10 overflow-hidden | -max-h-full overflow-auto*/}
+        <div title="Content" className='flex bg-slate-700 w-full flex-grow'>
+          <div className='w-full h-full overflow-hidden'>
             <div className='flex px-20 justify-between items-center w-full h-full '>
               <div className='text-transparent'>a</div>
               <div className='flex flex-col items-center'>
