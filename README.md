@@ -1,6 +1,8 @@
 # TheRadixHub.github.io
 Dapp Interface
 
+<!--
+
 ## Framework: VITE (React) Typescrypt + SWC
 ### Setup:
 npm create vite@latest
@@ -18,6 +20,7 @@ npm create vite@latest
         "scripts": { "test": vitest }
         "scripts": { "test": "vitest --coverage"}
 
+=======
 npx tailwindcss init -p
 
 npx shadcn-ui@latest init
@@ -38,3 +41,6 @@ npx shadcn-ui@latest init
 - Added 'button' component
 - Added 'menubar' component
 - Added 'skeleton' component
+-->
+
+![Alt](https://repobeats.axiom.co/api/embed/0c54d34ad89462206655cffb2eb42d8411ae7d6d.svg "Repobeats analytics image")
