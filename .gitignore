@@ -27,3 +27,6 @@ dist-ssr
 .coverage/*
 .embold/vscode-logs.log
 .embold/vscode-logs.log
+.embold/issues.db
+*.log
+.embold/vscode-logs.log
