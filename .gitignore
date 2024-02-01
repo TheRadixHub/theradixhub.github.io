@@ -30,3 +30,4 @@ dist-ssr
 .embold/issues.db
 *.log
 .embold/vscode-logs.log
+*.log
