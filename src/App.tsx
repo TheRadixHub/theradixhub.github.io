@@ -37,16 +37,23 @@ function App() {
         <footer className='flex flex-col justify-between items-center text-center bg-slate-900'>
           <div className="flex w-full h-fit">
             <div className='flex justify-between px-12 w-full'>
-              <div title="Footer SNSs" className='flex flex-row m-3 bg-transparent text-transparent'>
-                <div className='p-2'>discord</div>
-                <div className='p-2'>X</div>
-                <div className='p-2'>whitepaper</div>
+              <div className='flex flex-row m-3 bg-transparent text-transparent max-h-10 items-center'>
+                
+                <a title='Discord' href="" className='mx-2'><img src='src/assets/discord_icon_white.svg' className='w-8 h-8'></img></a>
+                <a title='X' href="https://twitter.com/TheRadixHub" className='mx-2'><img src='src/assets/twitter_x_icon_white.svg' className='w-8 h-8'></img></a>
+                <a title="Whitepaper" href="https://bridge-route-x.gitbook.io/project-overview/" className='mx-2'><img alt="Whitepaper" src='src/assets/gitbook_white.svg' loading="lazy" className='w-8 h-8'></img></a>
+                <a title="Github" href='https://www.github.com/TheRadixHub' className='mx-2'><img src='src/assets/github_icon_white.svg' loading="lazy" className='w-8 h-8'></img></a>
               </div>
-              <div title="Feedback link" className='flex flex-row w-fit m-3 items-center text-center text-transparent'>
-                <div>a</div>
-                <div>Feedback</div>
+              <div>
+                <div className='flex flex-row text-white items-center'>
+                  <div title="Feedback link" className='flex flex-row w-fit m-3 text-center text-transparent'>
+                    <div>a</div>
+                    <div>Feedback</div>
+                  </div>
+                  <div className=''>©2024 The Radix Hub. All rights reserved</div>
+                </div>
               </div>
-              </div>
+            </div>
           </div>
 
         </footer>
