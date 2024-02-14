@@ -11,7 +11,7 @@ function App() {
         <header className='flex flex-col w-full min-h-10 max-h-20 shadow-lg shadow-slate-700'>
           <div className='flex w-auto items-center justify-between'>
             <div className='flex text-center items-center'>
-              <img src="src/assets/XRB.png" className=" m-3 rounded-3xl border-4 max-w-8 max-h-8" />
+              <img src="/XRB.png" className=" m-3 rounded-3xl border-4 max-w-8 max-h-8" />
               <div className='text-white text-lg font-semibold border-4 border-transparent'>The Radix Hub</div>
             </div>
           
