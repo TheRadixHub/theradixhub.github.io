@@ -39,10 +39,10 @@ function App() {
             <div className='flex justify-between px-12 w-full'>
               <div className='flex flex-row m-3 bg-transparent text-transparent max-h-10 items-center'>
                 
-                <a title='Discord' href="" className='mx-2'><img src='src/assets/discord_icon_white.svg' className='w-8 h-8'></img></a>
-                <a title='X' href="https://twitter.com/TheRadixHub" className='mx-2'><img src='src/assets/twitter_x_icon_white.svg' className='w-8 h-8'></img></a>
-                <a title="Whitepaper" href="https://bridge-route-x.gitbook.io/project-overview/" className='mx-2'><img alt="Whitepaper" src='src/assets/gitbook_white.svg' loading="lazy" className='w-8 h-8'></img></a>
-                <a title="Github" href='https://www.github.com/TheRadixHub' className='mx-2'><img src='src/assets/github_icon_white.svg' loading="lazy" className='w-8 h-8'></img></a>
+                <a title='Discord' href="" className='mx-2'><img src='/discord_icon_white.svg' className='w-8 h-8'></img></a>
+                <a title='X' href="https://twitter.com/TheRadixHub" className='mx-2'><img src='/twitter_x_icon_white.svg' className='w-8 h-8'></img></a>
+                <a title="Whitepaper" href="https://bridge-route-x.gitbook.io/project-overview/" className='mx-2'><img alt="Whitepaper" src='/gitbook_white.svg' loading="lazy" className='w-8 h-8'></img></a>
+                <a title="Github" href='https://www.github.com/TheRadixHub' className='mx-2'><img src='/github_icon_white.svg' loading="lazy" className='w-8 h-8'></img></a>
               </div>
               <div>
                 <div className='flex flex-row text-white items-center'>
