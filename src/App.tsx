@@ -47,10 +47,10 @@ function App() {
               <div>
                 <div className='flex flex-row text-white items-center'>
                   <div title="Feedback link" className='flex flex-row w-fit m-3 text-center text-transparent'>
-                    <div>a</div>
-                    <div>Feedback</div>
+                    <div className='text-transparent'>a</div>
+                    <div className='text-transparent'>Feedback</div>
                   </div>
-                  <div className=''>©2024 The Radix Hub. All rights reserved</div>
+                  <div className=''>©2024 The Radix Hub</div>
                 </div>
               </div>
             </div>
