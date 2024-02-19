@@ -1,0 +1,39 @@
+name: General Feature Request
+description: Have a new idea/feature for BioDrop? Please suggest!
+title: "[FEATURE] <description>"
+labels:
+body:
+  - type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: A brief description of the enhancement you propose, also include what you tried andwhat worked.
+  validations:
+    required: true
+  - type: textarea
+    id: screenshots
+    description: Please add screenshots if applicable
+  validations:
+    required: false
+  - type: dropdown
+    id: assignee
+    attributes:
+      labels: Do you want to work on this issue?
+      multiple: false
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this idea?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        You van also join our X (Twitter) community [here](https://twitter.com/TheRadixHub.com)
