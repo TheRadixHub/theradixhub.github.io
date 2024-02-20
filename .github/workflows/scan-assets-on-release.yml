@@ -18,3 +18,4 @@ jobs:
             .exe$
 
 # The Public API is limited to 500 requests per day and a rate of 4 requests per minute.
+# https://docs.virustotal.com/reference/files-scan
