@@ -11,8 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-*.embold
-.embold/*
 
 # Editor directories and files
 .vscode/*
@@ -25,9 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 .coverage/*
-.embold/vscode-logs.log
-.embold/vscode-logs.log
-.embold/issues.db
 *.log
-.embold/vscode-logs.log
 *.log
