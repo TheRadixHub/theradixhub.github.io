@@ -1,0 +1,20 @@
+name: Scan Assets on Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  virustotal:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: VirusTotal Scan
+        uses: crazy-max/ghaction-virustotal@v4
+        with:
+          vt_api_key: ${{ secrets.env.VT_API_KEY }}
+          update_release_body: true
+          files: |
+            .exe$
+
+# The Public API is limited to 500 requests per day and a rate of 4 requests per minute.

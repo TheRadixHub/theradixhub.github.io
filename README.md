@@ -43,4 +43,10 @@ npx shadcn-ui@latest init
 - Added 'skeleton' component
 -->
 
+<a href="https://github.com/TheRadixHub/theradixhub.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TheRadixHub/theradixhub.github.io" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
 ![Alt](https://repobeats.axiom.co/api/embed/0c54d34ad89462206655cffb2eb42d8411ae7d6d.svg "Repobeats analytics image")
